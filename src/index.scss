@@ -1,0 +1,33 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+:root {
+
+  --font-family: 'DM Sans', sans-serif;
+
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+
+  --primary: #113a6c;
+  --primary-light: #B3E5BE;
+  --primary-extra-light: rgb(0 167 37 / 30%);
+  --secondary: #666666;
+  --white: #ffffff;
+  --black: #000000;
+  --light-black: #242424;
+  --border-color: #CFCFCF;
+  --fill-color: #F9F9F9;
+  --light-black: #252525;
+}
+
+body {
+  color: var(--light-black);
+  background-color: var(--white);
+  font-family: var(--font-family);
+  line-height: 1.5;
+  font-weight: var(--font-weight-400);
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+}

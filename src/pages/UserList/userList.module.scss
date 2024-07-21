@@ -1,0 +1,42 @@
+// Define reusable variables for colors and spacing
+$primaryColor: #4caf50;
+$spacing: 16px;
+
+.tableContainer {
+  width: 100%;
+  background-color: lightgray; // Change the background color of the table head
+}
+
+.tableData {
+  border: 1px solid #ccc; // Add border to the table container
+  border-radius: 0px !important; // Add rounded corners to the table container
+  margin-top: $spacing; // Add margin at the top for spacing
+  padding: 0px !important; // Add padding inside the table container
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Add a subtle box shadow
+}
+
+.table__cell {
+  padding: 8px; // Add padding to table cells
+}
+
+.table__image {
+  max-width: 50px; // Style for the image in the table cell
+  border-radius: 50%; // Make the image circular
+}
+
+.buttonAddUser {
+  width: 12rem;
+  background-color: $primaryColor; // Use primary color for the button background
+  color: #ffffff; // Set text color for the "Add Breakfast" button
+  padding: 10px; // Adjust padding for the button
+  border: none; // Remove default button border
+  cursor: pointer; // Change cursor to pointer on hover
+  transition: background-color 0.3s; // Smooth transition for background color change
+  margin-left: $spacing; // Add margin to the button for spacing
+
+  &:hover {
+    background-color: darken($primaryColor, 10%); // Darken button color on hover
+  }
+}
+
+// Add any additional styling for specific elements or components as needed

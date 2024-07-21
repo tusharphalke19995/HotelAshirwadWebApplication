@@ -1,0 +1,65 @@
+.customTableHeadTitle:global(.MuiTableCell-root) {
+    font-size: 12px;
+    color: var(--black);
+    font-weight: var(--font-weight-500);
+    border-bottom: 1px solid var(--border-color);
+    // padding: 14px;
+    background-color: var(--fill-color);
+}
+
+.customTableCellFooter:global(.MuiTableCell-root) {
+    font-size: 14px;
+    color: var(--primary);
+    font-weight: var(--font-weight-500);
+    border-bottom: 1px solid var(--border-color);
+    padding: 14px;
+    background-color: var(--fill-color);
+    text-align: center;
+}
+
+.customTableRowTitle:global(.MuiTableCell-root) {
+    font-size: 12px;
+    font-weight: var(--font-weight-400);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--light-black);
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.customTableRowSubTitle:global(.MuiTableCell-root) {
+    font-size: 12px;
+    font-weight: var(--font-weight-400);
+    color: var(--light-black);
+    padding: 12px;
+    border-bottom: unset;
+}
+
+.customValue {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & svg {
+        font-size: 20px;
+        cursor: pointer;
+        color: var(--light-black);
+    }
+}
+
+.customTableContainer:global(.MuiTableContainer-root) {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.customTableRow:global(.MuiTableRow-root) {
+    cursor: pointer;
+}
+
+.customTableCellEmpty:global(.MuiTableCell-root) {
+    font-size: 13px;
+    color: var(--secondary);
+    font-weight: var(--font-weight-400);
+    padding: 14px;
+    text-align: center;
+}

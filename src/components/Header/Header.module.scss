@@ -1,0 +1,27 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem 0 1rem;
+  border-bottom: 1px solid var(--border-color);
+  height: 60px;
+}
+.title {
+  font-size: 14px;
+  font-weight: var(--font-weight-500);
+  color: var(--secondary);
+}
+.customButtonGreen:global(.MuiButton-root) {
+  width: -webkit-fill-available;
+  box-shadow: none;
+  text-transform: capitalize;
+  background-color: var(--primary);
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 12px;
+
+  &:hover {
+    box-shadow: none;
+    background-color: var(--primary);
+  }
+}

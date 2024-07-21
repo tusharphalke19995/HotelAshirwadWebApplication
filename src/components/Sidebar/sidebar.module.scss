@@ -1,0 +1,89 @@
+.sidebarContainer {
+    min-width: 206px;
+    border-right: 1px solid var(--border-color);
+  }
+  
+  .logoContainer {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    min-height: 45px;
+    & img {
+      width: 45px;
+      margin-top: 0.95rem;
+    }
+  }
+  
+  .logoTitle {
+    font-size: 16px;
+    font-weight: var(--font-weight-500);
+  }
+  
+  .listItemText:global(.MuiListItemText-primary) {
+    font-size: 13px;
+    font-weight: var(--font-weight-500);
+    color: var(--secondary);
+  }
+  
+  .activeListItemText:global(.MuiListItemText-primary) {
+    color: var(--black);
+  }
+  
+  .customListItemButtonActive:global(.MuiListItemButton-root) {
+    background: var(--primary-extra-light);
+    border-radius: 6px;
+    margin: 0px 4px;
+    border-left: 3px solid var(--primary);
+  
+    &:hover {
+      background: var(--primary-extra-light) !important;
+    }
+  }
+  
+  .customListItemButton:global(.MuiListItemButton-root) {
+    margin: 0px 2px;
+    padding: 8px 12px;
+    &:hover {
+      background: transparent;
+    }
+  }
+  .customItem:global(.MuiListItem-root) {
+    margin-bottom: 10px;
+  }
+  
+  .smSidebarStyle {
+    position: absolute;
+    background: white;
+    z-index: 3;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .backIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 8px;
+    color: var(--secondary);
+    cursor: pointer;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center; /* Align text and logo vertically */
+  }
+  
+  .logoText {
+    margin-right: 8px !important; /* Adjust spacing as needed */
+    font-size: 1.25rem; /* Adjust font size as needed */
+    font-weight: 500; /* Adjust font weight as needed */
+    color: #333; /* Adjust color as needed */
+    margin-top: 12px !important;
+    margin-right: 17px !important;
+
+  }
+  
+  .logoImage {
+    
+    max-height: 50px; /* Adjust height as needed to align with text */
+  }

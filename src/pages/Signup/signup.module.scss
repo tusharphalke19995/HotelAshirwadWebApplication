@@ -1,0 +1,111 @@
+.leftContainer {
+  height: calc(100vh - 74px);
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20%;
+
+}
+
+.rightContainer {
+  height: calc(100vh - 40px);
+  background-color: var(--light-blue);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerTitle {
+  font-weight: var(--font-weight-700);
+  font-size: 24px;
+  color: var(--secondary);
+}
+
+.registerDescription {
+  font-weight: var(--font-weight-500);
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.inputContainer {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--secondary);
+  font-weight: var(--font-weight-500);
+  margin-bottom: 5px;
+}
+
+.registerBtn:global(.MuiButton-root) {
+  background-color: var(--primary);
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: var(--font-weight-700);
+  
+  min-height: 48px;
+  box-shadow: 0px 8px 20px 0px #1EB7C633;
+
+  &:hover {
+    background-color: var(--primary);
+    box-shadow: 0px 8px 20px 0px #1EB7C633;
+  }
+}
+
+.dflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField:global(.MuiOutlinedInput-root) {
+  height: 48px;
+  
+  font-size: 14px;
+  & fieldset {
+    border-color: var(--light-blue) !important;
+    border-radius: 6px;
+  }
+}
+
+
+.alreadyAccount {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.LoginTitle {
+  font-weight: var(--font-weight-600);
+  font-size: 14px;
+  color: var(--primary);
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.rightContainerParent {
+  padding: 20px;
+}
+.logoContainer {
+ padding: 10px;
+}
+.loginTitleRightCnt {
+  font-weight: var(--font-weight-700);
+  font-size: 24px;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+.imageCnt {
+  padding: 15px;
+}
+.loginDescription {
+  font-weight: var(--font-weight-500);
+  font-size: 14px;
+  color: var(--grey);
+}

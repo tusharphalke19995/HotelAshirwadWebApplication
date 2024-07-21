@@ -1,0 +1,18 @@
+.customButton:global(.MuiButton-root) {
+  // min-width: 162px;
+  // min-height: 45px;
+  box-shadow: none;
+  color: var(--black);
+  text-transform: capitalize;
+  background-color: var(--fill-color);
+  border: 1px solid var(--border-color);
+  justify-content: space-between;
+  border-radius: 5px;
+  font-size: 12px;
+
+  &:hover {
+    box-shadow: none;
+    background-color: var(--fill-color);
+    border: 1px solid var(--border-color);
+  }
+}
